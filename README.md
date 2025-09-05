@@ -1,5 +1,5 @@
-# steam-hours-nozeed<br />
-For linux use nodejs<br />
+<h5>For linux use nodejs </h5><br />
+<font color="red">แนะนำต้องปิดการใช้งาน Steam Guard ก่อน</font><br />
 _**Command ::**_<br />
 **คำสั่ง ที่ใช้ สำหรับ CentOS 7/8/9/10 และ Debain 10/11/12**<br />
 <pre>sudo yum upgrade -y<br />
@@ -18,8 +18,9 @@ git --version<br /></pre>
 cd myid<br />
 npm i steam-user<br />
 npm i steam-totp<br />
-npm install<br />
-pm2 start index.js --name myid<br />
+npm install</pre><br />
+หลังตรงนี้ใช้ Filezilla แล้วแก้ไขไฟล์ index.js เปลี่ยน steamid กับ steampass ของคุณแล้ว Save กลับที่เดิม
+<pre>pm2 start index.js --name myid<br />
 pm2 stop myid<br />
 pm2 start myid<br />
 pm2 restart myid<br />
