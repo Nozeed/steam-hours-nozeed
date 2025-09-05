@@ -1,4 +1,4 @@
-<h5>For linux use nodejs </h5><br />
+<br />
 แนะนำต้องปิดการใช้งาน Steam Guard ก่อน<br />
 _**Command ::**_<br />
 **คำสั่ง ที่ใช้ สำหรับ CentOS 7/8/9/10 และ Debain 10/11/12**<br />
