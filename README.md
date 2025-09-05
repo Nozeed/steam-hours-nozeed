@@ -2,7 +2,7 @@
 For linux use nodejs<br />
 _**Command ::**_<br />
 **คำสั่ง ที่ใช้ สำหรับ CentOS 7/8/9/10 และ Debain 10/11/12**<br />
-sudo yum upgrade -y<br />
+<pre>sudo yum upgrade -y<br />
 sudo yum update -y<br />
 sudo yum -y install curl<br />
 curl -sL https://rpm.nodesource.com/setup_20.x | sudo bash -<br />
@@ -23,5 +23,5 @@ pm2 start index.js --name myid<br />
 pm2 stop myid<br />
 pm2 start myid<br />
 pm2 restart myid<br />
-cd ~  / กลับไปหน้า root<br />
+cd ~  / กลับไปหน้า root</pre><br />
 **ส่วนของ Ubuntu 20.04/22.04/24.04 ให้เปลี่ยนสำสั่ง จาก yum เป็น apt**
