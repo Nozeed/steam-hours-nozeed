@@ -1,4 +1,4 @@
-<br />
+<h3 align="left">👩‍💻  About Me</h3>
 แนะนำต้องปิดการใช้งาน Steam Guard ก่อน<br />
 _**Command ::**_<br />
 **คำสั่ง ที่ใช้ สำหรับ CentOS 7/8/9/10 และ Debain 10/11/12**<br />
