@@ -1,6 +1,6 @@
 <h5 align="left">👩‍💻 แนะนำต้องปิดการใช้งาน Steam Guard ก่อน</h5>
 <br />
-<b>คำสั่ง ที่ใช้ สำหรับ CentOS 7/8/9/10 และ Debain 10/11/12</b>b><br />
+<b>คำสั่ง ที่ใช้ สำหรับ CentOS 7/8/9/10 และ Debain 10/11/12</b><br />
 
 <pre>sudo yum upgrade -y
 sudo yum update -y
