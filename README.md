@@ -12,9 +12,9 @@ curl -sL https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/yum.repos.d/yarn.r
 sudo yum install -y yarn<br />
 sudo npm install -g pm2<br />
 yum install -y git<br />
-git --version<br />
+git --version<br /></pre>
 **ติดตั้งตัว boost ชม.**<br />
-git clone https://github.com/Nozeed/steam-hours-nozeed.git myid<br />
+<pre>git clone https://github.com/Nozeed/steam-hours-nozeed.git myid<br />
 cd myid<br />
 npm i steam-user<br />
 npm i steam-totp<br />
