@@ -1,30 +1,41 @@
-<h5 align="left">👩‍💻 แนะนำต้องปิดการใช้งาน Steam Guard ก่อน</h5>
-<br />
-<b>คำสั่ง ที่ใช้ สำหรับ CentOS 7/8/9/10 และ Debain 10/11/12</b><br />
+# Steam Hours Booster (Node.js + Linux)
 
-<pre>sudo yum upgrade -y
+สคริปต์ farm ชั่วโมงเกมบน Steam ด้วย steam-user  
+เหมาะสำหรับ Linux server (CentOS/Rocky/Alma/Ubuntu/Debian)
+
+⚠️ **คำเตือนความปลอดภัย (สำคัญมาก – อ่านก่อน!)**  
+- **ห้าม** ใส่ password จริงแบบ plain text ใน index.js  
+- **แนะนำที่สุด**: ใช้ **Steam Guard Mobile Authenticator** + shared_secret  
+- ถ้าต้องใช้ password จริง → ใช้บัญชีสำรองที่ไม่มีอะไรสำคัญเท่านั้น  
+- การเปิดเผย password/shared_secret อาจทำให้บัญชีถูกแฮกได้ทันที
+
+## การติดตั้ง (CentOS / Rocky / Alma 8–9)
+
+```bash
 sudo yum update -y
-sudo yum -y install curl
+sudo yum install -y curl git
 curl -sL https://rpm.nodesource.com/setup_20.x | sudo bash -
 sudo yum install -y nodejs
-node -v
-curl -sL https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/yum.repos.d/yarn.repo
-sudo yum install -y yarn
+node -v   # ควรเห็น v20.x.x
+
 sudo npm install -g pm2
-yum install -y git
-git --version</pre>
-<br />
-<b>ติดตั้งตัว boost ชม.</b>
-<pre>git clone https://github.com/Nozeed/steam-hours-nozeed.git myid
-cd myid
-npm install steam-user steam-totp
-npm install</pre>
-<br />
-<b>หลังตรงนี้ใช้ Filezilla แล้วแก้ไขไฟล์ index.js เปลี่ยน steamid กับ steampass ของคุณแล้ว Save กลับที่เดิม</b>
-<pre>pm2 start index.js --name myid
-pm2 stop myid
-pm2 start myid
-pm2 restart myid
-cd ~  / กลับไปหน้า root</pre>
-<br />
-<b>ส่วนของ Ubuntu 20.04/22.04/24.04 ให้เปลี่ยนสำสั่ง จาก yum เป็น apt</b>
+
+
+## การติดตั้ง (Ubuntu / Debian)
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y curl git
+curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt install -y nodejs
+node -v
+
+sudo npm install -g pm2
+
+## ขั้นตอนใช้งาน
+git clone https://github.com/Nozeed/steam-hours-nozeed.git myboost
+cd myboost
+
+##ติดตั้ง package
+npm install
+
+##แก้ไขไฟล์ index.js (แนะนำใช้ nano / vim หรือ FileZilla)
+ตัวอย่างการตั้งค่าแบบปลอดภัย (แนะนำ)
