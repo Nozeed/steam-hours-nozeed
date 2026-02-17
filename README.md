@@ -17,8 +17,7 @@ git --version</pre>
 <b>ติดตั้งตัว boost ชม.</b>
 <pre>git clone https://github.com/Nozeed/steam-hours-nozeed.git myid
 cd myid
-npm i steam-user
-npm i steam-totp
+npm install steam-user steam-totp
 npm install</pre>
 <br />
 <b>หลังตรงนี้ใช้ Filezilla แล้วแก้ไขไฟล์ index.js เปลี่ยน steamid กับ steampass ของคุณแล้ว Save กลับที่เดิม</b>
