@@ -3,6 +3,8 @@
 สคริปต์ farm ชั่วโมงเกมบน Steam ด้วย steam-user  
 เหมาะสำหรับ Linux server (CentOS/Rocky/Alma/Ubuntu/Debian)
 
+## อันนี้เป็นเวอร์ชั่นรันหลายไอดีได้ [คลิ๊ก](https://github.com/Nozeed/Steam-Hours-Boost-Multi-Account-By-Nozeed)
+
 ⚠️ **คำเตือนความปลอดภัย (สำคัญมาก – อ่านก่อน!)**  
 - **แนะนำที่สุด**: ใช้ **Steam Guard Mobile Authenticator** + shared_secret  
 - ถ้าต้องใช้ password จริง → ใช้บัญชีสำรองที่ไม่มีอะไรสำคัญเท่านั้น  
