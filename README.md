@@ -4,7 +4,6 @@
 เหมาะสำหรับ Linux server (CentOS/Rocky/Alma/Ubuntu/Debian)
 
 ⚠️ **คำเตือนความปลอดภัย (สำคัญมาก – อ่านก่อน!)**  
-- **ห้าม** ใส่ password จริงแบบ plain text ใน index.js  
 - **แนะนำที่สุด**: ใช้ **Steam Guard Mobile Authenticator** + shared_secret  
 - ถ้าต้องใช้ password จริง → ใช้บัญชีสำรองที่ไม่มีอะไรสำคัญเท่านั้น  
 - การเปิดเผย password/shared_secret อาจทำให้บัญชีถูกแฮกได้ทันที
