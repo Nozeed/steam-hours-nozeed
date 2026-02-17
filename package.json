@@ -1,0 +1,15 @@
+{
+  "name": "steam-hours-nozeed",
+  "version": "1.0.0",
+  "description": "Steam hours booster using steam-user",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "steam-user": "^5.2.0",
+    "steam-totp": "^2.1.0"
+  },
+  "author": "Nozeed",
+  "license": "ISC"
+}
