@@ -40,7 +40,7 @@ cd myboost
 ```bash
 npm install
 ```
-3.แก้ไขไฟล์ index.js (แนะนำใช้ nano index.js หรือ vim / FileZilla)วิธีแนะนำ (ใช้ shared_secret – ปลอดภัยที่สุด)
+3.แก้ไขไฟล์ index.js (แนะนำใช้ nano index.js หรือ vim / FileZilla)วิธีแนะนำ ( ใช้ shared_secret – ปลอดภัยที่สุด)
 ```bash
 const SteamTotp = require('steam-totp');
 
