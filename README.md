@@ -79,8 +79,9 @@ pm2 startup
 
 # pm2 จะให้คำสั่งมา ให้ copy ไปรันเลย เช่น
 # sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u yourusername --hp /home/yourusername
+
 คำสั่ง PM2 ที่ใช้บ่อย
-Bashpm2 list                # ดูสถานะทั้งหมด
+pm2 list                # ดูสถานะทั้งหมด
 pm2 logs steam-hours    # ดู log แบบ real-time
 pm2 logs steam-hours -n 100   # ดู log ย้อนหลัง 100 บรรทัด
 
