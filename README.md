@@ -37,7 +37,7 @@ Clone repository และเข้าโฟลเดอร์
 ```bash
 git clone https://github.com/Nozeed/steam-hours-nozeed.git steam-boost
 cd steam-boost
-
+```
 ติดตั้ง dependencies
 ```bash
 npm install
